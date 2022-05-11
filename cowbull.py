@@ -3,11 +3,7 @@ import random
 def cowbull():
     list1=[0,1,2,3,4,5,6,7,8,9]
     list2=[]
-    for i in range(5):
-        x=random.choice(list1)
-        # if x not in list2:
-        list2.append(x)
-    # print(list2)
+    x=random.sample(list1,5)
     bull=[]
     cow=[]
     for i in range(10):
